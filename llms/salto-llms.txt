@@ -1,0 +1,155 @@
+# Salto Help Center
+
+> Automated configuration management for enterprise applications
+
+## About Salto
+
+- [Welcome to Salto!](https://help.salto.io/en/articles/6845011-welcome-to-salto.md): Salto is building a new and unified approach to managing the configuration of enterprise applications.
+- [Main Use Cases](https://help.salto.io/en/articles/6845014-main-use-cases.md)
+- [Core Concepts](https://help.salto.io/en/articles/6845018-core-concepts.md)
+
+## Getting Started
+
+- [Signing Up](https://help.salto.io/en/articles/6845021-signing-up.md)
+- [Creating an Environment](https://help.salto.io/en/articles/6845026-creating-an-environment.md)
+- [Inviting Members](https://help.salto.io/en/articles/6845032-inviting-members.md)
+- [Fetching Your Configuration Data](https://help.salto.io/en/articles/8889642-fetching-your-configuration-data.md)
+- [Salto Adapter Configuration File](https://help.salto.io/en/articles/7439324-salto-adapter-configuration-file.md): Customize which parts of your configuration to manage with Salto
+- [Contacting Salto Support](https://help.salto.io/en/articles/10548389-contacting-salto-support.md): How to contact our Support team to get help.
+
+## Securing your organization
+
+- [Salto Protect](https://help.salto.io/en/articles/10941890-salto-protect.md): Reduce your organization risk by Detecting & Remediating security issues
+
+## Salto for Salesforce
+
+- [Salto for Salesforce - Overview](https://help.salto.io/en/articles/6927208-salto-for-salesforce-overview.md)
+- [Salto for Salesforce CPQ - Overview](https://help.salto.io/en/articles/7977182-salto-for-salesforce-cpq-overview.md)
+- [Salesforce Setup Instructions](https://help.salto.io/en/articles/11052000-salesforce-setup-instructions.md)
+- [SFDX Integration with Salto](https://help.salto.io/en/articles/10242468-sfdx-integration-with-salto.md)
+- [CI/CD the Salto Way \(for Salesforce and for Everything Else\)](https://help.salto.io/en/articles/10466581-ci-cd-the-salto-way-for-salesforce-and-for-everything-else.md): This guide outlines how to implement CI/CD process tailored to your needs using Salto.
+- [Salesforce Settings](https://help.salto.io/en/articles/11042368-salesforce-settings.md): Configure Salesforce adapter settings in Salto
+- [Salesforce FAQ](https://help.salto.io/en/articles/11047451-salesforce-faq.md)
+- [Salesforce "Where Is This Used" Functionality for Standard and Custom Fields](https://help.salto.io/en/articles/6926958-salesforce-where-is-this-used-functionality-for-standard-and-custom-fields.md)
+- ["Where Is This Used" for Fields in Reports and Dashboards](https://help.salto.io/en/articles/8015306-where-is-this-used-for-fields-in-reports-and-dashboards.md)
+- [Managing Salesforce Flows](https://help.salto.io/en/articles/6982324-managing-salesforce-flows.md): This article explains the behavior when deploying Flows with Salto, along with some considerations for managing flow versions.
+- [Fetching Salesforce Installed Packages](https://help.salto.io/en/articles/7876864-fetching-salesforce-installed-packages.md)
+- [How To Run Apex Tests During Salesforce Deployment](https://help.salto.io/en/articles/7936769-how-to-run-apex-tests-during-salesforce-deployment.md): Learn how to specify which Apex tests are run when deploying Salesforce changes
+- [Impact Analysis for All Salesforce Metadata Types](https://help.salto.io/en/articles/6926930-impact-analysis-for-all-salesforce-metadata-types.md)
+- [Supported Salesforce Types](https://help.salto.io/en/articles/7439350-supported-salesforce-types.md)
+- [Why We Recommend You Disable CPQ Triggers When Deploying CPQ Data](https://help.salto.io/en/articles/7970448-why-we-recommend-you-disable-cpq-triggers-when-deploying-cpq-data.md): CPQ triggers can fire during a data load and this may not be what you want
+- [Treat CPQ Data As Metadata And Align Data Across Multiple Orgs](https://help.salto.io/en/articles/7977211-treat-cpq-data-as-metadata-and-align-data-across-multiple-orgs.md): Salto can be used to treat CPQ data as metadata and to align this data across multiple Salesforce orgs. This article describes how to do so.
+- [How To Seed A Sandbox With CPQ Data](https://help.salto.io/en/articles/7977225-how-to-seed-a-sandbox-with-cpq-data.md): You can use Salto to seed CPQ data from production to a sandbox org for testing and development purposes.
+- [How to Count Elements in Salesforce](https://help.salto.io/en/articles/8433751-how-to-count-elements-in-salesforce.md): This article provides a detailed walkthrough for determining the number of records associated with specific types in Salesforce
+- [Limiting the Number of Salesforce Data Records Fetched](https://help.salto.io/en/articles/8843243-limiting-the-number-of-salesforce-data-records-fetched.md): Customize which records are fetched by Salto e.g. maxInstancesPerType
+- [Advanced Salesforce Configuration Settings](https://help.salto.io/en/articles/14185275-advanced-salesforce-configuration-settings.md)
+- [Suppressing Deployment Preview Issues](https://help.salto.io/en/articles/7793653-suppressing-deployment-preview-issues.md)
+- [The Metadata Deployment Exceeded the Maximum Allowed Size of 50MB](https://help.salto.io/en/articles/8263355-the-metadata-deployment-exceeded-the-maximum-allowed-size-of-50mb.md): Large deployments can fail due to a Salesforce limit on metadata deployments
+- [Fetching from Salesforce Ended with a Warning: 'Data Records Not Fetched'](https://help.salto.io/en/articles/8283155-fetching-from-salesforce-ended-with-a-warning-data-records-not-fetched.md): What this warning means and how to resolve it
+- [How to Deploy Workflow Outbound Messages](https://help.salto.io/en/articles/9759691-how-to-deploy-workflow-outbound-messages.md): Guide to deploying Workflow Outbound Messages in Salesforce, with tips on fixing the ‘User Does Not Exist in Target’ error
+- [Error When Creating or Modifying a Field with an Unknown Type](https://help.salto.io/en/articles/9796042-error-when-creating-or-modifying-a-field-with-an-unknown-type.md): Resolving Salesforce Field Type Errors in Salto Deployments
+- [Error When Modifying a Field in Task or Event](https://help.salto.io/en/articles/9796279-error-when-modifying-a-field-in-task-or-event.md): Fix Task/Event Field Modification Errors in Salesforce
+- [Resolving API Version Error in Deployment](https://help.salto.io/en/articles/8432301-resolving-api-version-error-in-deployment.md): When attempting to deploy a Salesforce flow, you may encounter an error message related to the API version
+
+## Salto for Netsuite
+
+- [Salto For NetSuite - Overview](https://help.salto.io/en/articles/12265226-salto-for-netsuite-overview.md)
+- [Netsuite Setup Instructions](https://help.salto.io/en/articles/6927221-netsuite-setup-instructions.md)
+- [Supported NetSuite Types](https://help.salto.io/en/articles/6927238-supported-netsuite-types.md)
+- [Identifying Account Specific Values in NetSuite](https://help.salto.io/en/articles/8952685-identifying-account-specific-values-in-netsuite.md)
+- [Enhancing the Visibility of Bundles in NetSuite with Salto's SuiteApp](https://help.salto.io/en/articles/8963376-enhancing-the-visibility-of-bundles-in-netsuite-with-salto-s-suiteapp.md)
+- [NetSuite Settings](https://help.salto.io/en/articles/11042412-netsuite-settings.md): NetSuite Configuration Guide
+- [Netsuite FAQ](https://help.salto.io/en/articles/12291406-netsuite-faq.md)
+- [Advanced NetSuite Configuration Settings](https://help.salto.io/en/articles/14038907-advanced-netsuite-configuration-settings.md)
+- [Failed to fetch from NetSuite due to 'Invalid Login Attempt' error](https://help.salto.io/en/articles/6845058-failed-to-fetch-from-netsuite-due-to-invalid-login-attempt-error.md)
+- [Deploying Workflows Actions with account specific value](https://help.salto.io/en/articles/6845061-deploying-workflows-actions-with-account-specific-value.md)
+- [Deploying a currency between environments](https://help.salto.io/en/articles/6845062-deploying-a-currency-between-environments.md)
+- [Deploying elements containing not yet supported values](https://help.salto.io/en/articles/6845063-deploying-elements-containing-not-yet-supported-values.md)
+- [Fetch / Deploy Timeouts](https://help.salto.io/en/articles/8000386-fetch-deploy-timeouts.md): Resolving timeouts in Netsuite environment
+- [Deploying File Cabinet](https://help.salto.io/en/articles/7876750-deploying-file-cabinet.md)
+- [Fix ScriptID Permission Errors When Deploying Custom Record Instances](https://help.salto.io/en/articles/9382160-fix-scriptid-permission-errors-when-deploying-custom-record-instances.md)
+
+## Salto for Zendesk
+
+- [Salto For Zendesk - Overview](https://help.salto.io/en/articles/12266255-salto-for-zendesk-overview.md)
+- [Zendesk Setup Instructions](https://help.salto.io/en/articles/6933961-zendesk-setup-instructions.md)
+- [Supported Zendesk Support Types](https://help.salto.io/en/articles/7837097-supported-zendesk-support-types.md)
+- [Salto for Zendesk Guide - Overview](https://help.salto.io/en/articles/6948736-salto-for-zendesk-guide-overview.md): Zendesk guide
+- [Supported Zendesk Guide Types](https://help.salto.io/en/articles/7837112-supported-zendesk-guide-types.md)
+- [How to Exclude Tags in your Zendesk Configuration](https://help.salto.io/en/articles/8792017-how-to-exclude-tags-in-your-zendesk-configuration.md): Configure your Salto Zendesk environment to exclude tags, by treating tags as plain text rather than configuration elements.
+- [Fetching Zendesk Guide Themes](https://help.salto.io/en/articles/9031533-fetching-zendesk-guide-themes.md)
+- [Zendesk Settings](https://help.salto.io/en/articles/11042431-zendesk-settings.md): Configure Zendesk adapter settings in Salto
+- [Matching Support Addresses Across Environments](https://help.salto.io/en/articles/11164032-matching-support-addresses-across-environments.md)
+- [Zendesk OAuth Scopes for Salto](https://help.salto.io/en/articles/13427913-zendesk-oauth-scopes-for-salto.md): When connecting Zendesk to Salto using OAuth, you can define a scope that controls what Salto can read or modify in your Zendesk account. We recommend granting full access to all resources by leavi...
+- [Zendesk FAQ](https://help.salto.io/en/articles/12291421-zendesk-faq.md)
+- [Omitting Inactive Elements](https://help.salto.io/en/articles/9819010-omitting-inactive-elements.md): Managing inactive elements in environment fetches
+
+## Salto for Jira
+
+- [Salto For Jira - Overview](https://help.salto.io/en/articles/12266499-salto-for-jira-overview.md)
+- [Jira Setup Instructions](https://help.salto.io/en/articles/6933964-jira-setup-instructions.md)
+- [Supported Jira Types](https://help.salto.io/en/articles/7439352-supported-jira-types.md)
+- [Salto for Jira Service Management \(JSM\)](https://help.salto.io/en/articles/8671591-salto-for-jira-service-management-jsm.md)
+- [Jira Settings](https://help.salto.io/en/articles/11042425-jira-settings.md): Configure Jira adapter settings in Salto
+- [Jira FAQ](https://help.salto.io/en/articles/12291434-jira-faq.md)
+- [Migrating issues when modifying workflow schemes \(Jira Data Center\)](https://help.salto.io/en/articles/6948228-migrating-issues-when-modifying-workflow-schemes-jira-data-center.md)
+- [Getting Started with Salto for Jira](https://help.salto.io/en/articles/6982422-getting-started-with-salto-for-jira.md): How to start using Salto to explore your Jira instance, assess your changes' impact, and deploy configuration between environments
+- [How to count elements in Jira Data Center \(DC\)](https://help.salto.io/en/articles/8488850-how-to-count-elements-in-jira-data-center-dc.md)
+- [How to count elements in Jira](https://help.salto.io/en/articles/8488636-how-to-count-elements-in-jira.md): This article provides a detailed walkthrough for determining the number of records associated with specific types in Jira
+- [How to count elements in Jira Cloud](https://help.salto.io/en/articles/8433929-how-to-count-elements-in-jira-cloud.md)
+- [Masking Sensitive Information in Salto for Git Repositories](https://help.salto.io/en/articles/10050789-masking-sensitive-information-in-salto-for-git-repositories.md): Mask sensitive data in Salto for secure storage across git platforms
+- [Migrating projects between Jira instances](https://help.salto.io/en/articles/11086087-migrating-projects-between-jira-instances.md)
+
+## Salto for Okta
+
+- [Salto For Okta - Overview](https://help.salto.io/en/articles/12266596-salto-for-okta-overview.md)
+- [Okta Setup Instructions](https://help.salto.io/en/articles/7835740-okta-setup-instructions.md)
+- [Supported Okta Types](https://help.salto.io/en/articles/7835746-supported-okta-types.md)
+- [Okta Settings](https://help.salto.io/en/articles/10189183-okta-settings.md)
+- [Deploying Okta Applications Using Salto](https://help.salto.io/en/articles/10199943-deploying-okta-applications-using-salto.md)
+- [Okta FAQ](https://help.salto.io/en/articles/12291446-okta-faq.md)
+
+## Salto for Microsoft Security
+
+- [Salto for Microsoft Security](https://help.salto.io/en/articles/9853230-salto-for-microsoft-security.md): Salto for Entra ID, Intune and Defender for Endpoint
+- [Microsoft Security Required Roles Overview](https://help.salto.io/en/articles/10469824-microsoft-security-required-roles-overview.md): Roles required for managing Microsoft Security via Salto
+- [Microsoft Security Settings](https://help.salto.io/en/articles/11478066-microsoft-security-settings.md): Customizing Microsoft Security Application Connections in Salto
+
+## Salto for other applications
+
+- [Salto for Jamf Pro - Overview](https://help.salto.io/en/articles/9572342-salto-for-jamf-pro-overview.md): Learn how to manage your Jamf Pro configuration with Salto
+- [Salto for Zuora Billing - Overview](https://help.salto.io/en/articles/6947053-salto-for-zuora-billing-overview.md): Learn how to manage your Zuora Billing configuration with Salto
+- [Salto for Stripe - Overview](https://help.salto.io/en/articles/6947051-salto-for-stripe-overview.md): Learn how to manage your Stripe configuration with Salto
+- [Salto for Confluence - Overview](https://help.salto.io/en/articles/9305641-salto-for-confluence-overview.md): Learn how to manage your Confluence configuration with Salto
+- [Salto for Google Workspace - Overview](https://help.salto.io/en/articles/9414364-salto-for-google-workspace-overview.md)
+- [Salto for CrowdStrike Falcon - Overview](https://help.salto.io/en/articles/10993881-salto-for-crowdstrike-falcon-overview.md)
+- [Salto for Cloudflare - Overview](https://help.salto.io/en/articles/10903690-salto-for-cloudflare-overview.md)
+- [Salto for Splunk Cloud - Overview](https://help.salto.io/en/articles/11098081-salto-for-splunk-cloud-overview.md)
+
+## Troubleshooting
+
+- [Can't find my element when exploring my environment](https://help.salto.io/en/articles/10411573-can-t-find-my-element-when-exploring-my-environment.md)
+- [Can't find my element when comparing environments](https://help.salto.io/en/articles/7063970-can-t-find-my-element-when-comparing-environments.md)
+- [Many differences when comparing environments](https://help.salto.io/en/articles/9819032-many-differences-when-comparing-environments.md)
+- [How to Update Your Credentials in Salto](https://help.salto.io/en/articles/8340197-how-to-update-your-credentials-in-salto.md)
+- [Fixing errors when pulling commits into a deployment](https://help.salto.io/en/articles/8556252-fixing-errors-when-pulling-commits-into-a-deployment.md)
+- [Generating a HAR file for troubleshooting](https://help.salto.io/en/articles/8871177-generating-a-har-file-for-troubleshooting.md)
+- [Resolving Deployment Preview Issues](https://help.salto.io/en/articles/9080688-resolving-deployment-preview-issues.md)
+- [Misalignment of Salto Element IDs](https://help.salto.io/en/articles/8290892-misalignment-of-salto-element-ids.md)
+- [Salto ID collisions](https://help.salto.io/en/articles/6927157-salto-id-collisions.md)
+- [Element contains unresolved references](https://help.salto.io/en/articles/6947056-element-contains-unresolved-references.md)
+- [Element cannot be deployed due to an error in its dependency](https://help.salto.io/en/articles/6947060-element-cannot-be-deployed-due-to-an-error-in-its-dependency.md)
+- [Salto could not access the resource](https://help.salto.io/en/articles/6947061-salto-could-not-access-the-resource.md)
+- [Element contains Unresolved References](https://help.salto.io/en/articles/10174717-element-contains-unresolved-references.md)
+
+## Pricing
+
+- [Configuration-Size Based Pricing](https://help.salto.io/en/articles/8485741-configuration-size-based-pricing.md)
+- [Understanding How Salto Labels Production Connections](https://help.salto.io/en/articles/8529517-understanding-how-salto-labels-production-connections.md): This article will guide you through how Salto distinguishes between production and non-production connections
+
+## Security and Privacy
+
+- [Security](https://help.salto.io/en/articles/6927126-security.md)
+- [Salto's Subprocessors](https://help.salto.io/en/articles/6927131-salto-s-subprocessors.md)
+- [Salto's IP Addresses](https://help.salto.io/en/articles/6927140-salto-s-ip-addresses.md)
+- [Password Policy](https://help.salto.io/en/articles/15458433-password-policy.md): Enforce password requirements for email-based login to Salto

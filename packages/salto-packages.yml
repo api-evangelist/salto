@@ -1,0 +1,54 @@
+generated: '2026-07-21'
+method: searched
+source: https://www.npmjs.com/org/salto-io
+note: >-
+  Salto's core product is a SaaS configuration-management platform for enterprise
+  applications; it does not publish a public REST API client SDK. The first-party
+  packages below are the open-source tooling and application adapters Salto publishes
+  to npm (the salto-io monorepo), plus the Salto VS Code extension for NACL config files.
+packages:
+  - language: javascript
+    registry: npm
+    name: salto-vscode
+    url: https://www.npmjs.com/package/salto-vscode
+    install: (VS Code extension) NACL configuration-file language support
+    version: 0.5.2
+    repository: https://github.com/salto-io/salto
+    official: true
+  - language: javascript
+    registry: npm
+    name: "@salto-io/monitoring"
+    url: https://www.npmjs.com/package/@salto-io/monitoring
+    install: npm install @salto-io/monitoring
+    version: 0.2.0
+    repository: https://github.com/salto-io/salto
+    description: Monitor changes to Salto elements
+    official: true
+  - language: javascript
+    registry: npm
+    name: "@salto-io/zendesk-support-adapter"
+    url: https://www.npmjs.com/package/@salto-io/zendesk-support-adapter
+    install: npm install @salto-io/zendesk-support-adapter
+    version: 0.3.20
+    repository: https://github.com/salto-io/salto
+    description: Salto Zendesk Support adapter
+    official: true
+  - language: javascript
+    registry: npm
+    name: "@salto-io/marketo-adapter"
+    url: https://www.npmjs.com/package/@salto-io/marketo-adapter
+    install: npm install @salto-io/marketo-adapter
+    version: 0.2.15
+    repository: https://github.com/salto-io/salto
+    description: Salto Marketo adapter
+    official: true
+  - language: javascript
+    registry: npm
+    name: "@salto-io/suitecloud-cli"
+    url: https://www.npmjs.com/package/@salto-io/suitecloud-cli
+    install: npm install -g @salto-io/suitecloud-cli
+    version: 3.0.2-salto-7
+    repository: https://github.com/salto-io/netsuite-suitecloud-sdk
+    description: Salto's fork of the NetSuite SuiteCloud CLI for Node.js
+    official: true
+    fork_of: NetSuite SuiteCloud SDK
