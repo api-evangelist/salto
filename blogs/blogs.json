@@ -2,10 +2,13 @@
   "repo": "salto",
   "feeds": [
     {
-      "source": "https://help.salto.io/en/collections/3768505-getting-started",
-      "error": "HTTPError"
+      "source": "https://www.salto.io/blog",
+      "feed_url": "https://www.salto.io/blog",
+      "title": "",
+      "saved": 0,
+      "method": "none"
     }
   ],
   "post_count": 0,
-  "fetched": "2026-10-03T12:30:02Z"
+  "fetched": "2026-10-10T13:15:00Z"
 }
