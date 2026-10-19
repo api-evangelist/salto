@@ -1,7 +1,14 @@
 generated: '2026-10-14'
 method: searched
 checked:
+- https://api.nuget.org/v3
+- https://crates.io/api/v1
 - https://marketplace.atlassian.com/
+- https://proxy.golang.org
+- https://pypi.org/pypi
+- https://registry.npmjs.org
+- https://repo1.maven.org/maven2
+- https://rubygems.org/api/v1
 - okta/integrations/okta-integration-edges.yml
 - slack/integrations/slack-integration-edges.yml
 marketplace_apps: []
@@ -62,5 +69,71 @@ edges:
   detected: '2026-10-18'
   detected_by: mirror-platform-listings.py
   category: Slack app
+- partner_name: npm registry
+  partner: npm
+  partner_match: register
+  type: register
+  direction: provider-built
+  category: official SDK (JavaScript/TypeScript)
+  evidence: https://www.npmjs.com/package/@salto-io/marketo-adapter
+  channel: package-registry
+  relationship: distribution-channel
+  contract_reference:
+    register: npm registry (public registry JSON)
+    spec_file: null
+    language: JavaScript/TypeScript
+    packages:
+    - name: '@salto-io/marketo-adapter'
+      version: 0.2.15
+      released: '2026-01-13'
+      released_field: modified
+      lapsed: false
+      page: https://www.npmjs.com/package/@salto-io/marketo-adapter
+      repo_leg: github-org:salto-io
+      publisher_leg: email:salto.io
+      matched_by: domain
+    - name: '@salto-io/monitoring'
+      version: 0.2.0
+      released: '2026-01-13'
+      released_field: modified
+      lapsed: false
+      page: https://www.npmjs.com/package/@salto-io/monitoring
+      repo_leg: github-org:salto-io
+      publisher_leg: email:salto.io
+      matched_by: domain
+    - name: '@salto-io/suitecloud-cli'
+      version: 3.0.2-salto-7
+      released: '2026-01-13'
+      released_field: modified
+      lapsed: false
+      page: https://www.npmjs.com/package/@salto-io/suitecloud-cli
+      repo_leg: github-org:salto-io
+      publisher_leg: email:salto.io
+      matched_by: domain
+    - name: '@salto-io/zendesk-support-adapter'
+      version: 0.3.20
+      released: '2026-01-13'
+      released_field: modified
+      lapsed: false
+      page: https://www.npmjs.com/package/@salto-io/zendesk-support-adapter
+      repo_leg: github-org:salto-io
+      publisher_leg: email:salto.io
+      matched_by: domain
+    - name: salto-vscode
+      version: 0.5.2
+      released: null
+      released_field: modified
+      lapsed: false
+      page: https://www.npmjs.com/package/salto-vscode
+      repo_leg: github-org:salto-io
+      publisher_leg: email:salto.io
+      matched_by: domain
+    current: true
+    signal_note: 'an official package on the registry: distribution, not an integration; lapsed = no release in
+      24 months'
+    detected_by: sweep-official-sdks.py
+    detected: '2026-10-18'
+  detected_by: sweep-official-sdks.py
+  first_seen: '2026-10-18'
 source:
 - https://marketplace.atlassian.com/
